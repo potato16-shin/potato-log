@@ -6,14 +6,23 @@ repo_name: potato16-shin/potato-log
 theme:
   name: material
   language: ko
+  custom_dir: docs/overrides
+  logo: assets/potato.svg
+  favicon: assets/potato.svg
   palette:
     - scheme: default
-      primary: deep orange
+      primary: white
       accent: deep orange
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.top
     - content.code.copy
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
   - admonition
   - toc:
@@ -22,7 +31,11 @@ markdown_extensions:
   - footnotes
 plugins:
   - search
+extra:
+  generator: false
+
 nav:
   - Home: index.md
   - Posts:
       - 2026-02-19: posts/2026-02-19.md
+

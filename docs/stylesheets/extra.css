@@ -1,0 +1,104 @@
+:root{
+  --pl-bg:#ffffff;
+  --pl-text:#2e2e2e;
+  --pl-accent:#FF8C36;
+  --pl-surface:#ffffff;
+  --pl-muted:#f6f6f6;
+  --md-primary-fg-color:#ffffff;
+  --md-primary-bg-color: var(--pl-text);
+  --md-accent-fg-color: var(--pl-accent);
+}
+
+/* Header: white, subtle border + shadow (Pinterest-ish) */
+.md-header{
+  background: rgba(255,255,255,0.85) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+.md-header__title,
+.md-header__button,
+.md-header__button.md-icon,
+.md-header__topic,
+.md-tabs__link,
+.md-search__input{
+  color: var(--pl-text) !important;
+}
+.md-search__input{
+  background: rgba(0,0,0,0.04) !important;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 999px;
+}
+
+/* Tabs */
+.md-tabs{
+  background: transparent !important;
+}
+.md-tabs__link--active{
+  color: var(--pl-text) !important;
+}
+.md-tabs__link--active::after{
+  background: var(--pl-accent) !important;
+}
+
+/* Page background */
+.md-main{
+  background: var(--pl-muted);
+}
+
+/* Content card */
+.md-content__inner{
+  background: var(--pl-surface);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 20px;
+  padding: 28px 28px 22px;
+  box-shadow: 0 18px 60px rgba(0,0,0,0.10);
+}
+
+/* Headings */
+.md-content h1{ letter-spacing: -0.02em; }
+.md-content h2{ letter-spacing: -0.015em; }
+
+/* Links */
+.md-content a{
+  color: var(--pl-text);
+  text-decoration-color: color-mix(in srgb, var(--pl-accent) 70%, transparent);
+  text-underline-offset: 3px;
+}
+.md-content a:hover{
+  color: var(--pl-text);
+  text-decoration-color: var(--pl-accent);
+}
+
+/* Buttons/"pills" for index */
+.pl-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.pl-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.pl-card{
+  border:1px solid rgba(0,0,0,0.06);
+  border-radius:16px;
+  background:#fff;
+  padding:16px;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.08);
+}
+
+.pl-card-title{
+  font-weight:700;
+  margin:0 0 6px;
+}
+
+.pl-muted{ color: rgba(46,46,46,0.65); }
