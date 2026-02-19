@@ -1,0 +1,28 @@
+site_name: potato-log
+site_description: "Learning → Apply → Ship"
+site_url: https://potato16-shin.github.io/potato-log/
+repo_url: https://github.com/potato16-shin/potato-log
+repo_name: potato16-shin/potato-log
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Posts:
+      - 2026-02-19: posts/2026-02-19.md
