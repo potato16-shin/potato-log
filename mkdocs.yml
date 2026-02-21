@@ -37,6 +37,7 @@ extra:
 nav:
   - Home: index.md
   - Posts:
+      - 2026-02-22: posts/2026-02-22.md
       - 2026-02-21: posts/2026-02-21.md
       - 2026-02-20: posts/2026-02-20.md
       - 2026-02-19: posts/2026-02-19.md
