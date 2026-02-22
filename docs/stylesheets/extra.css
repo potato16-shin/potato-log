@@ -69,11 +69,13 @@
   font-size:12px;
   font-weight:700;
 }
-.pl-mag-hero h2{
+.pl-hero-title{
   margin:0 0 12px;
   font-size: clamp(1.7rem, 4vw, 2.7rem);
   line-height:1.15;
   font-weight:800;
+  color: var(--pl-text);
+  letter-spacing:-0.02em;
 }
 .pl-hero-sub{
   margin:0 0 16px;
@@ -131,6 +133,14 @@
   font-size:1.1rem;
   font-weight:700;
   color: var(--pl-text);
+}
+.pl-post-title a{
+  color: var(--pl-text) !important;
+  text-decoration: none;
+}
+.pl-post-title a:hover{
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--pl-accent) 65%, transparent);
 }
 .pl-post-desc{
   margin:0;
