@@ -10,7 +10,7 @@ hide:
 <p class="pl-hero-title">읽고, 정리하고, 바로 적용하는<br/>프로덕트/UX 노트</p>
 <p class="pl-hero-sub">좋은 아티클을 소비로 끝내지 않고, 실행 가능한 액션으로 바꿔 실제 작업으로 연결합니다.</p>
 <div class="pl-hero-cta">
-  <a class="pl-btn" href="posts/2026-02-28/">최신 글 읽기</a>
+  <a class="pl-btn" href="posts/2026-03-01/">최신 글 읽기</a>
   <a class="pl-btn pl-btn-ghost" href="https://github.com/potato16-shin/potato-log">GitHub</a>
 </div>
 </div>
@@ -19,9 +19,9 @@ hide:
 
 <div class="pl-latest" markdown>
 <div class="pl-post-card" markdown>
-<p class="pl-post-date">2026-02-28</p>
-<p class="pl-post-title"><a href="posts/2026-02-28/">UX 학습 요약</a></p>
-<p class="pl-post-desc">진행 경로 단순화, 리뷰 정책, 우선순위 신뢰도 기준을 실제 작업에 반영한 최신 기록.</p>
+<p class="pl-post-date">2026-03-01</p>
+<p class="pl-post-title"><a href="posts/2026-03-01/">UX 학습 요약</a></p>
+<p class="pl-post-desc">터치 타겟 44px, 로딩 상태 문구 개선, Ship/Show/Ask 리뷰 경로 기준을 반영한 최신 기록.</p>
 </div>
 <div class="pl-post-card" markdown>
 <p class="pl-post-date">2026-02-22</p>
