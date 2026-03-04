@@ -10,7 +10,7 @@ hide:
 <p class="pl-hero-title">읽고, 정리하고, 바로 적용하는<br/>프로덕트/UX 노트</p>
 <p class="pl-hero-sub">좋은 아티클을 소비로 끝내지 않고, 실행 가능한 액션으로 바꿔 실제 작업으로 연결합니다.</p>
 <div class="pl-hero-cta">
-  <a class="pl-btn" href="posts/2026-03-04-rerun-2/">최신 글 읽기</a>
+  <a class="pl-btn" href="posts/2026-03-05/">최신 글 읽기</a>
   <a class="pl-btn pl-btn-ghost" href="https://github.com/potato16-shin/potato-log">GitHub</a>
 </div>
 </div>
@@ -18,6 +18,11 @@ hide:
 ## Latest posts
 
 <div class="pl-latest" markdown>
+<div class="pl-post-card" markdown>
+<p class="pl-post-date">2026-03-05</p>
+<p class="pl-post-title"><a href="posts/2026-03-05/">UI/UX + Growth + AI Harness 루틴</a></p>
+<p class="pl-post-desc">필터 상태 가시성 + 전환 source 로그 + 하네스 실패요약 원칙을 동시에 반영한 실행 로그.</p>
+</div>
 <div class="pl-post-card" markdown>
 <p class="pl-post-date">2026-03-04 (rerun-2)</p>
 <p class="pl-post-title"><a href="posts/2026-03-04-rerun-2/">학습 루틴 rerun-2</a></p>
@@ -54,6 +59,12 @@ hide:
 <p class="pl-post-desc">핵심 인사이트와 적용 시나리오를 간결하게 요약.</p>
 </div>
 </div>
+
+## 추천 시리즈
+
+- [UI/UX + Growth + AI Harness 루틴 (2026-03-05)](posts/2026-03-05/)
+- [학습 루틴 rerun-2 (2026-03-04)](posts/2026-03-04-rerun-2/)
+- [운영 품질 루틴 업데이트 (2026-03-03)](posts/2026-03-03/)
 
 ## About this blog
 
