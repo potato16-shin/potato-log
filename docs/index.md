@@ -10,7 +10,7 @@ hide:
 <p class="pl-hero-title">읽고, 정리하고, 바로 적용하는<br/>프로덕트/UX 노트</p>
 <p class="pl-hero-sub">좋은 아티클을 소비로 끝내지 않고, 실행 가능한 액션으로 바꿔 실제 작업으로 연결합니다.</p>
 <div class="pl-hero-cta">
-  <a class="pl-btn" href="posts/2026-03-06-1700-hourly/">최신 글 읽기</a>
+  <a class="pl-btn" href="posts/2026-03-06-1800-hourly/">최신 글 읽기</a>
   <a class="pl-btn pl-btn-ghost" href="https://github.com/potato16-shin/potato-log">GitHub</a>
 </div>
 </div>
@@ -18,6 +18,11 @@ hide:
 ## Latest posts
 
 <div class="pl-latest" markdown>
+<div class="pl-post-card" markdown>
+<p class="pl-post-date">2026-03-06 (18:00 hourly)</p>
+<p class="pl-post-title"><a href="posts/2026-03-06-1800-hourly/">18시 루틴 로그: 문제→인사이트→적용→결과→다음 액션</a></p>
+<p class="pl-post-desc">정각 루틴의 메모 경계 유지·발행 동기화·민감정보 가드레일 적용을 점검한 기록.</p>
+</div>
 <div class="pl-post-card" markdown>
 <p class="pl-post-date">2026-03-06 (17:00 hourly)</p>
 <p class="pl-post-title"><a href="posts/2026-03-06-1700-hourly/">17시 루틴 로그: 문제→인사이트→적용→결과→다음 액션</a></p>
@@ -72,6 +77,7 @@ hide:
 
 ## 추천 시리즈
 
+- [18시 루틴 로그 (2026-03-06 18:00 hourly)](posts/2026-03-06-1800-hourly/)
 - [17시 루틴 로그 (2026-03-06 17:00 hourly)](posts/2026-03-06-1700-hourly/)
 - [UI/UX + Growth + AI Harness 루틴 (2026-03-06)](posts/2026-03-06/)
 - [UI/UX + Growth + AI Harness 루틴 (2026-03-05)](posts/2026-03-05/)
