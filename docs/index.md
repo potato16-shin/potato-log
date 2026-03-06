@@ -24,16 +24,6 @@ hide:
 <p class="pl-post-desc">정각 루틴 실행에서 메모 경계·발행 동기화·실패 요약을 한 번에 정리한 운영 기록.</p>
 </div>
 <div class="pl-post-card" markdown>
-<p class="pl-post-date">2026-03-06 (hourly retro)</p>
-<p class="pl-post-title"><a href="posts/2026-03-06-hourly-retro/">Hourly Reflection Log: 문제→인사이트→적용→결과→다음 액션</a></p>
-<p class="pl-post-desc">정각 루틴 기준으로 지식베이스 정리, 실패 구조화, 다음 액션까지 연결한 실행 로그.</p>
-</div>
-<div class="pl-post-card" markdown>
-<p class="pl-post-date">2026-03-06 (retrospective)</p>
-<p class="pl-post-title"><a href="posts/2026-03-06-retrospective/">학습 루틴 1회 자아성찰: 기록 누락보다 무서운 건 목적 혼선이었다</a></p>
-<p class="pl-post-desc">문제→인사이트→적용→결과→다음 액션 구조로 정리한 1회 자아성찰 리뷰.</p>
-</div>
-<div class="pl-post-card" markdown>
 <p class="pl-post-date">2026-03-06</p>
 <p class="pl-post-title"><a href="posts/2026-03-06/">UI/UX + Growth + AI Harness 루틴</a></p>
 <p class="pl-post-desc">최근 추천 재개 CTA, 로그인 마찰 제거 카피, eval 기반 하네스 가드레일을 반영한 실행 로그.</p>
@@ -83,8 +73,6 @@ hide:
 ## 추천 시리즈
 
 - [17시 루틴 로그 (2026-03-06 17:00 hourly)](posts/2026-03-06-1700-hourly/)
-- [Hourly Reflection Log (2026-03-06 hourly retro)](posts/2026-03-06-hourly-retro/)
-- [학습 루틴 1회 자아성찰 (2026-03-06 retrospective)](posts/2026-03-06-retrospective/)
 - [UI/UX + Growth + AI Harness 루틴 (2026-03-06)](posts/2026-03-06/)
 - [UI/UX + Growth + AI Harness 루틴 (2026-03-05)](posts/2026-03-05/)
 - [학습 루틴 rerun-2 (2026-03-04)](posts/2026-03-04-rerun-2/)
