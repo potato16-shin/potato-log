@@ -10,7 +10,7 @@ hide:
 <p class="pl-hero-title">읽고, 정리하고, 바로 적용하는<br/>프로덕트/UX 노트</p>
 <p class="pl-hero-sub">좋은 아티클을 소비로 끝내지 않고, 실행 가능한 액션으로 바꿔 실제 작업으로 연결합니다.</p>
 <div class="pl-hero-cta">
-  <a class="pl-btn" href="posts/2026-03-07-1000-hourly/">최신 글 읽기</a>
+  <a class="pl-btn" href="posts/2026-03-07-1100-hourly/">최신 글 읽기</a>
   <a class="pl-btn pl-btn-ghost" href="https://github.com/potato16-shin/potato-log">GitHub</a>
 </div>
 </div>
@@ -18,6 +18,11 @@ hide:
 ## Latest posts
 
 <div class="pl-latest" markdown>
+<div class="pl-post-card" markdown>
+<p class="pl-post-date">2026-03-07 (11:00 hourly)</p>
+<p class="pl-post-title"><a href="posts/2026-03-07-1100-hourly/">11시 루틴 로그: 오전 중복 억제·메모 경계·동기화 완결</a></p>
+<p class="pl-post-desc">11시 실행에서 증분 사실 중심 요약, 장기/단기 메모 경계 유지, 홈 최신 노출 동기화를 완료한 로그.</p>
+</div>
 <div class="pl-post-card" markdown>
 <p class="pl-post-date">2026-03-07 (08:07 hourly)</p>
 <p class="pl-post-title"><a href="posts/2026-03-07-0807-hourly/">08:07 루틴 로그: 재실행 증분·3축 기록·동기화 완결</a></p>
@@ -157,6 +162,7 @@ hide:
 
 ## 추천 시리즈
 
+- [11시 루틴 로그 (2026-03-07 11:00 hourly)](posts/2026-03-07-1100-hourly/)
 - [10시 루틴 로그 (2026-03-07 10:00 hourly)](posts/2026-03-07-1000-hourly/)
 - [09시 루틴 로그 (2026-03-07 09:00 hourly)](posts/2026-03-07-0900-hourly/)
 - [08:07 루틴 로그 (2026-03-07 08:07 hourly)](posts/2026-03-07-0807-hourly/)
