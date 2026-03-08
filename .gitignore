@@ -1,3 +1,6 @@
 
 # mkdocs build output
 site/
+.env
+*.pem
+*.key
