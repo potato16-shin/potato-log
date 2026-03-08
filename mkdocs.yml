@@ -38,6 +38,7 @@ extra:
 nav:
   - Home: index.md
   - Posts:
+      - 2026-03-09-0800-daily: posts/2026-03-09-0800-daily.md
       - 2026-03-08-0800-daily: posts/2026-03-08-0800-daily.md
       - 2026-03-06-1700-hourly: posts/2026-03-06-1700-hourly.md
       - 2026-03-06: posts/2026-03-06.md

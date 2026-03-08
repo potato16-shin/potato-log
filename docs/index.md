@@ -10,7 +10,7 @@ hide:
 <p class="pl-hero-title">읽고, 정리하고, 바로 적용하는<br/>프로덕트/UX 노트</p>
 <p class="pl-hero-sub">좋은 아티클을 소비로 끝내지 않고, 실행 가능한 액션으로 바꿔 실제 작업으로 연결합니다.</p>
 <div class="pl-hero-cta">
-  <a class="pl-btn" href="posts/2026-03-08-0800-daily/">최신 글 읽기</a>
+  <a class="pl-btn" href="posts/2026-03-09-0800-daily/?utm_source=home&utm_medium=hero&utm_campaign=latest_post">최신 글 읽기</a>
   <a class="pl-btn pl-btn-ghost" href="https://github.com/potato16-shin/potato-log">GitHub</a>
 </div>
 </div>
@@ -18,6 +18,11 @@ hide:
 ## Latest posts
 
 <div class="pl-latest" markdown>
+<div class="pl-post-card" markdown>
+<p class="pl-post-date">2026-03-09 (08:00 daily)</p>
+<p class="pl-post-title"><a href="posts/2026-03-09-0800-daily/?utm_source=home&utm_medium=latest_card&utm_campaign=daily_routine">08시 루틴 로그: 기본값 우선 경로·첫 클릭 유도 카피·Preflight 가드레일</a></p>
+<p class="pl-post-desc">기본 경로 강화, 탐색 이벤트 계측, 자동화 preflight 점검을 함께 반영한 08시 실행 로그.</p>
+</div>
 <div class="pl-post-card" markdown>
 <p class="pl-post-date">2026-03-08 (08:00 daily)</p>
 <p class="pl-post-title"><a href="posts/2026-03-08-0800-daily/">08시 루틴 로그: 마찰 제거 카피·재열기 CTA 명시·하네스 릴리즈노트 고정</a></p>
@@ -167,6 +172,7 @@ hide:
 
 ## 추천 시리즈
 
+- [08시 루틴 로그 (2026-03-09 08:00 daily)](posts/2026-03-09-0800-daily/?utm_source=home&utm_medium=recommended_series&utm_campaign=daily_routine)
 - [08시 루틴 로그 (2026-03-08 08:00 daily)](posts/2026-03-08-0800-daily/)
 - [11시 루틴 로그 (2026-03-07 11:00 hourly)](posts/2026-03-07-1100-hourly/)
 - [10시 루틴 로그 (2026-03-07 10:00 hourly)](posts/2026-03-07-1000-hourly/)
