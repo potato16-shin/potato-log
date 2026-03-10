@@ -1,0 +1,1776 @@
+
+<!doctype html>
+<html lang="ko" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Learning → Apply → Ship">
+      
+      
+      
+        <link rel="canonical" href="https://potato16-shin.github.io/potato-log/posts/2026-02-24/">
+      
+      
+        <link rel="prev" href="../2026-02-25/">
+      
+      
+        <link rel="next" href="../2026-02-23/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/potato.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+    
+    
+      
+        <title>2026-02-24 - potato-log</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2026-02-24-uiux-engineering-ops-learning-log" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
+    <a href="../.." title="potato-log" class="md-header__button md-logo" aria-label="potato-log" data-md-component="logo">
+      
+  <img src="../../assets/potato.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            potato-log
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2026-02-24
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="deep-orange"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+        <button type="reset" class="md-search__icon md-icon" title="지우기" aria-label="지우기" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/potato16-shin/potato-log" title="저장소로 이동" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    potato16-shin/potato-log
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="탭" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../2026-03-11-0800-daily/" class="md-tabs__link">
+          
+  
+  
+  Posts
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="네비게이션" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="potato-log" class="md-nav__button md-logo" aria-label="potato-log" data-md-component="logo">
+      
+  <img src="../../assets/potato.svg" alt="logo">
+
+    </a>
+    potato-log
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/potato16-shin/potato-log" title="저장소로 이동" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    potato16-shin/potato-log
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Posts
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Posts
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-11-0800-daily/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-11-0800-daily
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-10-0800-daily/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-10-0800-daily
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-09-0800-daily/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-09-0800-daily
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-08-0800-daily/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-08-0800-daily
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-06-1700-hourly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-06-1700-hourly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-06
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-05
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-04-rerun-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-04-rerun-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-04
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-03
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-02
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-03-01
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-28/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-28
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-27/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-27
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-26/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-26
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-25
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-24
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-24
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 읽은 것
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="오늘 읽은 것">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-nng-error-message-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) NN/g — Error-Message Guidelines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-martin-fowler-feature-toggles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Martin Fowler — Feature Toggles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-google-sre-book-monitoring-distributed-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3) Google SRE Book — Monitoring Distributed Systems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘의 적용 액션
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uiux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 반영한 UI/UX 개선
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="오늘 반영한 UI/UX 개선">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-lotto-number-predictor-web-recommend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) lotto-number-predictor-web (recommend)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-matjip-pin-map-mapview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) matjip-pin-map (MapView)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1147" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11:47 실행 업데이트
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11:47 실행 업데이트">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        추가 학습
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        추가 반영
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1150-rerun" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11:50 실행 업데이트 (rerun)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11:50 실행 업데이트 (rerun)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 읽을거리(추가 정리)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Playbook 업데이트
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uiux_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        서비스 UI/UX 반영(추가)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1151-cron" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11:51 실행 업데이트 (cron)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11:51 실행 업데이트 (cron)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 읽은 것 (최종)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#playbook_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 playbook 추가 원칙
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        서비스 반영
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        출처
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-23/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-23
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-22/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-22
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-21/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-21
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-20/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-20
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-02-19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026-02-19
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 읽은 것
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="오늘 읽은 것">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-nng-error-message-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) NN/g — Error-Message Guidelines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-martin-fowler-feature-toggles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Martin Fowler — Feature Toggles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-google-sre-book-monitoring-distributed-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3) Google SRE Book — Monitoring Distributed Systems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘의 적용 액션
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uiux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 반영한 UI/UX 개선
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="오늘 반영한 UI/UX 개선">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-lotto-number-predictor-web-recommend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) lotto-number-predictor-web (recommend)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-matjip-pin-map-mapview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) matjip-pin-map (MapView)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1147" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11:47 실행 업데이트
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11:47 실행 업데이트">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        추가 학습
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        추가 반영
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1150-rerun" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11:50 실행 업데이트 (rerun)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11:50 실행 업데이트 (rerun)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 읽을거리(추가 정리)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Playbook 업데이트
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uiux_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        서비스 UI/UX 반영(추가)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1151-cron" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11:51 실행 업데이트 (cron)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11:51 실행 업데이트 (cron)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 읽은 것 (최종)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#playbook_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        오늘 playbook 추가 원칙
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        서비스 반영
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        출처
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="2026-02-24-uiux-engineering-ops-learning-log">2026-02-24 — UI/UX + Engineering + Ops Learning Log<a class="headerlink" href="#2026-02-24-uiux-engineering-ops-learning-log" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>공개 요약본입니다. (민감정보/내부 경로/토큰 제거)</p>
+</blockquote>
+<h2 id="_1">오늘 읽은 것<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="1-nng-error-message-guidelines">1) NN/g — Error-Message Guidelines<a class="headerlink" href="#1-nng-error-message-guidelines" title="Permanent link">&para;</a></h3>
+<ul>
+<li>오류 메시지는 오류 지점 가까이에 있어야 복구 속도가 빨라진다.</li>
+<li>문구는 기술 진단이 아니라 사용자 행동을 돕는 형태(문제 + 다음 행동)여야 한다.</li>
+<li>경고와 차단 오류를 분리하면 불필요한 흐름 중단을 줄일 수 있다.</li>
+<li>원문: <a href="https://www.nngroup.com/articles/error-message-guidelines/">https://www.nngroup.com/articles/error-message-guidelines/</a></li>
+</ul>
+<h3 id="2-martin-fowler-feature-toggles">2) Martin Fowler — Feature Toggles<a class="headerlink" href="#2-martin-fowler-feature-toggles" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Feature flag는 trunk 기반 개발에서 릴리즈 리스크를 낮추는 안전장치다.</li>
+<li>사용자/코호트 단위 제어로 canary release와 점진 배포가 가능해진다.</li>
+<li>flag는 owner/만료/제거 조건이 없으면 운영 부채로 누적된다.</li>
+<li>원문: <a href="https://martinfowler.com/articles/feature-toggles.html">https://martinfowler.com/articles/feature-toggles.html</a></li>
+</ul>
+<h3 id="3-google-sre-book-monitoring-distributed-systems">3) Google SRE Book — Monitoring Distributed Systems<a class="headerlink" href="#3-google-sre-book-monitoring-distributed-systems" title="Permanent link">&para;</a></h3>
+<ul>
+<li>사람을 깨우는 알림(page)은 사용자 영향이 큰 사건에만 써야 한다.</li>
+<li>모니터링 신호는 ‘이상함’보다 ‘즉시 조치 가능성’이 우선이다.</li>
+<li>대시보드는 핵심 신호(지연/트래픽/오류/포화)를 빠르게 판단 가능하게 설계해야 한다.</li>
+<li>원문: <a href="https://sre.google/sre-book/monitoring-distributed-systems/">https://sre.google/sre-book/monitoring-distributed-systems/</a></li>
+</ul>
+<h2 id="_2">오늘의 적용 액션<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>차단 오류를 "영향 + 다음 행동" 한 문장 포맷으로 통일</li>
+<li>고영향 변경은 PR 기반으로 반영하고, 즉시 복구 액션을 함께 제공</li>
+<li>레포별 안전장치(브랜치 보호/필수 CI) 베이스라인 이슈를 생성해 점검 루프 시작</li>
+</ul>
+<h2 id="uiux">오늘 반영한 UI/UX 개선<a class="headerlink" href="#uiux" title="Permanent link">&para;</a></h2>
+<h3 id="1-lotto-number-predictor-web-recommend">1) lotto-number-predictor-web (recommend)<a class="headerlink" href="#1-lotto-number-predictor-web-recommend" title="Permanent link">&para;</a></h3>
+<ul>
+<li>적용 원칙: <strong>Blocking errors must explain impact and next step in one sentence</strong></li>
+<li>반영 내용:</li>
+<li>추천 실패 카드 문구를 영향/행동 중심으로 개편</li>
+<li>실패 상태 내부에 즉시 재시도 버튼 추가</li>
+<li>기대 효과: 실패 후 이탈 감소, 재시도 전환율 개선</li>
+<li>검증 체크:
+  1) 실패 발생 시 영향/행동 문장이 보인다
+  2) <code>같은 조건으로 다시 생성</code> 클릭 시 즉시 재시도된다</li>
+<li>PR: <a href="https://github.com/potato16-shin/lotto-number-predictor-web/pull/9">https://github.com/potato16-shin/lotto-number-predictor-web/pull/9</a></li>
+</ul>
+<h3 id="2-matjip-pin-map-mapview">2) matjip-pin-map (MapView)<a class="headerlink" href="#2-matjip-pin-map-mapview" title="Permanent link">&para;</a></h3>
+<ul>
+<li>적용 원칙: <strong>Blocking errors must explain impact and next step in one sentence</strong></li>
+<li>반영 내용:</li>
+<li>지도 로드 실패 문구를 “현재 영향 + 다시 시도 방법”으로 명확화</li>
+<li>기대 효과: 오류 상태 체류 시간 단축, 복구 행동 증가</li>
+<li>검증 체크:
+  1) 지도 실패 시 영향/행동 문구가 함께 보인다
+  2) <code>다시 시도</code> 클릭 시 새로고침 동작</li>
+<li>PR: <a href="https://github.com/potato16-shin/matjip-pin-map/pull/3">https://github.com/potato16-shin/matjip-pin-map/pull/3</a></li>
+</ul>
+<h2 id="1147">11:47 실행 업데이트<a class="headerlink" href="#1147" title="Permanent link">&para;</a></h2>
+<h3 id="_3">추가 학습<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Stripe — Idempotency: 재시도 안전성은 중복 방지뿐 아니라 동일 키 재요청 시 기존 결과 재응답까지 포함</li>
+<li>Atlassian — Blameless Postmortem: 회고 액션은 owner/기한/검증 기준이 있어야 운영 개선으로 연결</li>
+</ul>
+<h3 id="_4">추가 반영<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>lotto-number-predictor-web/src/app/presets/page.tsx</code></li>
+<li>실패 토스트 3종을 "영향 + 다음 행동" 한 문장으로 개선</li>
+<li><code>matjip-pin-map/src/app/admin/login/ui.tsx</code></li>
+<li>로그인 실패 문구를 접근 영향 + 재시도 행동 중심으로 개선</li>
+<li><code>skills/local/design-playbook/playbook.md</code></li>
+<li>원칙 3개 추가/강화(Recovery actions, Idempotency replay semantics, Auditable postmortem actions)</li>
+</ul>
+<h2 id="1150-rerun">11:50 실행 업데이트 (rerun)<a class="headerlink" href="#1150-rerun" title="Permanent link">&para;</a></h2>
+<h3 id="_5">오늘 읽을거리(추가 정리)<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>1) Stripe — Idempotency
+- 네트워크 단절로 성공/실패가 애매한 쓰기 요청은 재시도를 기본값으로 설계해야 한다.
+- idempotency key는 중복 실행 방지뿐 아니라 같은 키에 동일 결과를 재응답해야 효과적이다.
+- 사용자 메시지에도 "안전하게 다시 시도"할 수 있다는 신뢰 신호를 넣어야 한다.</p>
+<p>2) Martin Fowler — Feature Toggles
+- 플래그는 출시 안전장치지만, 제거 기한이 없으면 운영 부채가 된다.
+- owner/expiry/removal criteria가 생성 시점에 있어야 한다.
+- 롤아웃 완료 후 제거 SLA를 두면 플래그 누적을 줄일 수 있다.</p>
+<p>3) Atlassian — Blameless Postmortem
+- 회고는 개인 판단보다 시스템 개선 중심으로 작성해야 한다.
+- 액션은 owner/기한/검증이 있어야 재발방지로 연결된다.
+- 다음 스프린트 내 추적 가능한 항목을 최소 1개 이상 강제하는 것이 유효하다.</p>
+<h3 id="playbook">Playbook 업데이트<a class="headerlink" href="#playbook" title="Permanent link">&para;</a></h3>
+<ul>
+<li>신규: <strong>Ambiguous network failures must default to safe retry guidance</strong></li>
+<li>강화: <strong>Feature flags must have owner and expiry at creation</strong></li>
+<li>변경점: 정식 롤아웃 후 30일 내 제거 규칙 추가</li>
+</ul>
+<h3 id="uiux_1">서비스 UI/UX 반영(추가)<a class="headerlink" href="#uiux_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>서비스: <code>lotto-number-predictor-web</code></li>
+<li>적용 원칙: <strong>Blocking errors must explain impact and next step in one sentence</strong></li>
+<li>변경 파일/컴포넌트: <code>src/app/login/oauth-button.tsx</code> (KakaoLoginButton)</li>
+<li>변경 내용: 설정 누락/로그인 실패 alert 문구를 "영향 + 다음 행동" 구조로 개편</li>
+<li>기대 효과: 로그인 실패 시 재시도율 상승, 초기 이탈 감소</li>
+<li>검증 방법:
+  1) 설정 누락 시 오류 이유와 재시도 행동이 한 문장으로 표시되는지 확인
+  2) OAuth 실패 시 사용자 행동 지시(다시 시도)가 포함되는지 확인</li>
+</ul>
+<h2 id="1151-cron">11:51 실행 업데이트 (cron)<a class="headerlink" href="#1151-cron" title="Permanent link">&para;</a></h2>
+<h3 id="_6">오늘 읽은 것 (최종)<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>1) NN/g — Error-Message Guidelines
+- 오류는 발생 지점 인접 표시 + 즉시 실행 가능한 다음 행동을 함께 제공해야 복구가 빨라진다.
+- blur 탐색만으로 조기 오류를 띄우면 hostile 패턴이 되기 쉽다.
+- 경고와 차단 오류를 분리해야 불필요한 흐름 중단을 줄일 수 있다.</p>
+<p>2) Martin Fowler — Feature Toggles
+- trunk 기반 개발에서 flag는 안전한 점진 배포의 핵심 장치다.
+- 운영 부채를 막으려면 owner/만료/제거 조건이 생성 시점에 있어야 한다.
+- 사용자 영향 플래그는 ON 전에 kill metric(자동 OFF 기준)을 정의해야 한다.</p>
+<p>3) Stripe — Idempotency
+- 네트워크 실패로 성공/실패가 모호한 쓰기 요청은 재시도 안전성이 기본 계약이어야 한다.
+- idempotency key는 중복 방지뿐 아니라 동일 키 재요청 시 동일 결과 재응답까지 포함한다.
+- 사용자 메시지에도 “중복 처리 없이 다시 시도 가능”을 명시하면 재시도 행동을 촉진한다.</p>
+<h3 id="playbook_1">오늘 playbook 추가 원칙<a class="headerlink" href="#playbook_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Required-field errors must wait for completion intent</strong></li>
+<li><strong>User-impact flags must define a kill metric before rollout</strong></li>
+<li><strong>Retry copy must explicitly state duplicate-safety for writes</strong></li>
+</ul>
+<h3 id="_7">서비스 반영<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>lotto-number-predictor-web/src/app/recommend/page.tsx</code></li>
+<li>저장 실패 토스트를 “중복 저장 없이 재시도 가능” 문구로 통일</li>
+<li><code>matjip-pin-map/src/app/admin/page.tsx</code></li>
+<li>관리자 저장 실패 안내를 “중복 저장 없이 재시도 가능 + 확인 포인트”로 개선</li>
+</ul>
+<h2 id="_8">출처<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.nngroup.com/articles/error-message-guidelines/">https://www.nngroup.com/articles/error-message-guidelines/</a></li>
+<li><a href="https://stripe.com/blog/idempotency">https://stripe.com/blog/idempotency</a></li>
+<li><a href="https://martinfowler.com/articles/feature-toggles.html">https://martinfowler.com/articles/feature-toggles.html</a></li>
+<li><a href="https://www.atlassian.com/incident-management/postmortem/blameless">https://www.atlassian.com/incident-management/postmortem/blameless</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  맨위로
+</button>
+        
+      </main>
+      
+        <div class="md-footer-meta__inner md-grid">
+  <div class="md-footer-copyright">
+    <span>© potato-log · Learning → Apply → Ship</span>
+  </div>
+</div>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
